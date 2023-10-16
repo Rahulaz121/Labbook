@@ -1,0 +1,14 @@
+package com.cg;
+
+public class Sum {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String num1 = "20";
+	    String num2 = "30";
+	    String num3 = "40";
+	    
+	    
+	}
+
+}

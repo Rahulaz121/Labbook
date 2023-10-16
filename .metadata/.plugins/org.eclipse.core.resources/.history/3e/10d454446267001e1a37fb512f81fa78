@@ -1,0 +1,24 @@
+package com.cg;
+
+import java.util.Scanner;
+
+public class Player {
+	private String playerName;
+	private String country;
+	private String skill;
+	public Player(String playerName, String country, String skill) {
+		this.playerName=playerName;
+		this.country=country;
+		this.skill=skill;
+	}
+	public void displayPlayerDetails() {
+		System.out.println("Player Name:"+playerName);
+		System.out.println("Country:"+country);
+		System.out.println("skill:"+skill);
+	};
+	public void main(String[]args) {
+		Player player=new Player("virat","india","Batting");
+		Player player1=new Player("watson","aus","Allrounder");
+	       player.displayPlayerDetails();	
+	}
+}

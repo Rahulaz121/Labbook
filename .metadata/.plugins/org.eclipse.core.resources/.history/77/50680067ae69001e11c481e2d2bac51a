@@ -1,0 +1,22 @@
+package com.cg;
+
+public class Digitno {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+			int n=397;
+			String s=Integer.toString(n);
+			if(s.length()==3) {
+				String s1=""+s.charAt(1);
+				int num=Integer.parseInt(s1);
+				if(num%3==0) {
+					System.out.println(n+" is Trendy number");
+
+				}else {
+					System.out.println("invalid number");		
+			}
+
+			}	
+	}
+
+}
